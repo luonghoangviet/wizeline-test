@@ -10,3 +10,4 @@ Feature: Verify inventory(product) page
     When I select item contains "T-Shirt" title
     Then I should be redirected to the item page
     And I should see item contains "T-Shirt" in title
+    When I click add to cart button on the item page

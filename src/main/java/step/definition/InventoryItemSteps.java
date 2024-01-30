@@ -16,4 +16,11 @@ public class InventoryItemSteps extends TestBase {
         assertTrue(inventoryItemPage.getItemName().contains(title));
     }
 
+    @Then("^I click add to cart button on the item page$")
+    public void clickAddToCart() {
+        inventoryItemPage.addToCart();
+        System.out.println("ahih");
+    }
 }
+
+

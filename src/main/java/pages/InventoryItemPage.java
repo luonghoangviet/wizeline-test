@@ -22,4 +22,8 @@ public class InventoryItemPage extends TestBase {
     {
         return title.getText();
     }
+
+    public void addToCart(){
+        btnAddToCart.click();
+    }
 }
